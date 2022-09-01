@@ -12,7 +12,7 @@ function SignIn() {
   return (
     <div>
       <h1>Sign In component</h1>
-      <button onClick={() => logGoogleUser()}>Sign In</button>
+      <button onClick={logGoogleUser}>Sign In</button>
     </div>
   );
 }
